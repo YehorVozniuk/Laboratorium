@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab_5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<p id="countdown" class="NowyRok"></p>
+
+
+<h2>Zadanie 1</h2>
+<script>
+function tabela(){
+    document.write("<table border>");
+    for(i=1; i<11; i++){
+        document.write(`<tr><td> ${i} </td>`);
+        for(j=1; j<11; j++){ 
+            
+            if(j != 1){ 
+                 document.write(`<td> ${i*j} </td>`) 
+            }
+        }
+        document.write("</tr>"); 
+    }
+    document.write("</table>")
+}
+tabela();
+</script>
+
+<br>
+
+<h2>Zadanie 2</h2>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
